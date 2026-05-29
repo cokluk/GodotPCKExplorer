@@ -10,35 +10,36 @@ Fork of [DmitriySalnikov/GodotPCKExplorer](https://github.com/DmitriySalnikov/Go
 
 ## Download
 
-**[→ Latest releases (.zip)](https://github.com/cokluk/GodotPCKExplorer/releases/latest)**
-
-Each release has one `.zip` per variant (UI / console, dotnet / native, per platform).
+**[→ Release page](https://github.com/cokluk/GodotPCKExplorer/releases/latest)** · base URL for direct links: `https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/`
 
 ### Godot PCK Explorer (v1.6.0)
 
-| Asset | Description |
-|-------|-------------|
-| `GodotPCKExplorer_*_dotnet-ui-win` | Windows UI (.NET 9 Desktop Runtime) |
-| `GodotPCKExplorer_*_dotnet-console-win-linux-mac` | Console (`dotnet` on Win / Linux / macOS) |
-| `GodotPCKExplorer_*_native-console-win-x64` | Standalone, 64-bit Windows |
-| `GodotPCKExplorer_*_native-console-win-x86` | Standalone, 32-bit Windows |
-| `GodotPCKExplorer_*_native-console-linux-x64` | Standalone, Linux x64 |
-| `GodotPCKExplorer_*_native-console-mac-x64` | Standalone, macOS Intel |
-| `GodotPCKExplorer_*_native-console-mac-arm64` | Standalone, macOS Apple Silicon |
+| Download | Description |
+|----------|-------------|
+| [GodotPCKExplorer_1.6.0_dotnet-ui-win.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/GodotPCKExplorer_1.6.0_dotnet-ui-win.zip) | Windows UI (.NET 9 Desktop Runtime) |
+| [GodotPCKExplorer_1.6.0_dotnet-console-win-linux-mac.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/GodotPCKExplorer_1.6.0_dotnet-console-win-linux-mac.zip) | Console (`dotnet` on Win / Linux / macOS) |
+| [GodotPCKExplorer_1.6.0_native-console-win-x64.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/GodotPCKExplorer_1.6.0_native-console-win-x64.zip) | Standalone, 64-bit Windows |
+| [GodotPCKExplorer_1.6.0_native-console-win-x86.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/GodotPCKExplorer_1.6.0_native-console-win-x86.zip) | Standalone, 32-bit Windows |
+| [GodotPCKExplorer_1.6.0_native-console-linux-x64.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/GodotPCKExplorer_1.6.0_native-console-linux-x64.zip) | Standalone, Linux x64 |
+| [GodotPCKExplorer_1.6.0_native-console-mac-x64.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/GodotPCKExplorer_1.6.0_native-console-mac-x64.zip) | Standalone, macOS Intel |
+| [GodotPCKExplorer_1.6.0_native-console-mac-arm64.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/GodotPCKExplorer_1.6.0_native-console-mac-arm64.zip) | Standalone, macOS Apple Silicon |
 
 ### PCK Bruteforcer (v1.0.3)
 
 Godot 4 PCK encryption key recovery. Details: [Bruteforcer/README.md](Bruteforcer/README.md).
 
-| Asset | Description |
-|-------|-------------|
-| `PCKBruteforcer_*_dotnet-ui-win` | Windows UI (.NET 9 Desktop Runtime) |
-| `PCKBruteforcer_*_dotnet-console-win-linux-mac` | Console (`dotnet` on Win / Linux / macOS) |
-| `PCKBruteforcer_*_native-console-win-x64` | Standalone, 64-bit Windows |
-| `PCKBruteforcer_*_native-console-win-x86` | Standalone, 32-bit Windows |
-| `PCKBruteforcer_*_native-console-linux-x64` | Standalone, Linux x64 |
-| `PCKBruteforcer_*_native-console-mac-x64` | Standalone, macOS Intel |
-| `PCKBruteforcer_*_native-console-mac-arm64` | Standalone, macOS Apple Silicon |
+| Download | Description |
+|----------|-------------|
+| [PCKBruteforcer_1.0.3_dotnet-ui-win.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/PCKBruteforcer_1.0.3_dotnet-ui-win.zip) | Windows UI (.NET 9 Desktop Runtime) |
+| [PCKBruteforcer_1.0.3_dotnet-console-win-linux-mac.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/PCKBruteforcer_1.0.3_dotnet-console-win-linux-mac.zip) | Console (`dotnet` on Win / Linux / macOS) |
+| [PCKBruteforcer_1.0.3_native-console-win-x64.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/PCKBruteforcer_1.0.3_native-console-win-x64.zip) | Standalone, 64-bit Windows |
+| [PCKBruteforcer_1.0.3_native-console-win-x86.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/PCKBruteforcer_1.0.3_native-console-win-x86.zip) | Standalone, 32-bit Windows |
+| [PCKBruteforcer_1.0.3_native-console-linux-x64.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/PCKBruteforcer_1.0.3_native-console-linux-x64.zip) | Standalone, Linux x64 |
+| [PCKBruteforcer_1.0.3_native-console-mac-x64.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/PCKBruteforcer_1.0.3_native-console-mac-x64.zip) | Standalone, macOS Intel |
+| [PCKBruteforcer_1.0.3_native-console-mac-arm64.zip](https://github.com/cokluk/GodotPCKExplorer/releases/download/1.6.0/PCKBruteforcer_1.0.3_native-console-mac-arm64.zip) | Standalone, macOS Apple Silicon |
+
+> [!NOTE]
+> Links use release tag **`1.6.0`**. When publishing, create the GitHub release with that exact tag (not `v1.6.0`) so URLs stay valid. All 14 zip files belong on the same release.
 
 > [!IMPORTANT]
 > **`dotnet`** builds need [.NET 9](https://dotnet.microsoft.com/download/dotnet/9.0). UI builds need the **Desktop Runtime** on Windows.
@@ -62,11 +63,11 @@ Output: `build/` (gitignored). Same folder names as release zips.
 Workflow: [`.github/workflows/dotnet-desktop.yml`](.github/workflows/dotnet-desktop.yml)
 
 - Push to `master` / `main` → artifacts under **Actions → release-zips**
-- Tag `v1.6.0` and push → creates a **GitHub Release** with all zips:
+- Create release tag **`1.6.0`** and push (matches download links in this README):
 
 ```bash
-git tag v1.6.0
-git push origin v1.6.0
+git tag 1.6.0
+git push origin 1.6.0
 ```
 
 ## Upstream

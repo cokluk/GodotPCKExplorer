@@ -3,7 +3,7 @@ name: Build releases
 on:
   push:
     branches: [master, main]
-    tags: ["v*"]
+    tags: ["v*", "*.*.*"]
     paths-ignore:
       - "**.md"
       - "LICENSE"
@@ -65,7 +65,7 @@ jobs:
   release:
     name: Publish GitHub Release
     needs: build
-    if: startsWith(github.ref, 'refs/tags/v')
+    if: github.ref_type == 'tag'
     runs-on: ubuntu-latest
     permissions:
       contents: write
