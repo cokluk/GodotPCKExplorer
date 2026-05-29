@@ -101,7 +101,7 @@ namespace GodotPCKExplorer.UI
 
         private void linkLabel1_LinkClicked(object? sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start(new ProcessStartInfo("https://github.com/DmitriySalnikov/GodotPCKExplorer") { UseShellExecute = true });
+            Process.Start(new ProcessStartInfo("https://github.com/cokluk/GodotPCKExplorer") { UseShellExecute = true });
         }
     }
 }

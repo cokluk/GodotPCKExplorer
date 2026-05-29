@@ -4,5 +4,11 @@
 		<ProduceReferenceAssembly>False</ProduceReferenceAssembly>
 		<BaseOutputPath>$(MSBuildThisFileDirectory)bin\$(MSBuildProjectName)\$(PlatformShortName)</BaseOutputPath>
 		<BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)obj\$(MSBuildProjectName)\$(PlatformShortName)</BaseIntermediateOutputPath>
+
+		<Authors>cokluk</Authors>
+		<Company>cokluk</Company>
+		<Copyright>Copyright © cokluk</Copyright>
+		<RepositoryUrl>https://github.com/cokluk/GodotPCKExplorer</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 </Project>

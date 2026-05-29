@@ -52,7 +52,7 @@ namespace GodotPCKExplorer.UI
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start(new ProcessStartInfo("https://github.com/DmitriySalnikov/GodotPCKExplorer/blob/master/Bruteforcer/README.md") { UseShellExecute = true });
+            Process.Start(new ProcessStartInfo("https://github.com/cokluk/GodotPCKExplorer/blob/master/Bruteforcer/README.md") { UseShellExecute = true });
         }
     }
 }

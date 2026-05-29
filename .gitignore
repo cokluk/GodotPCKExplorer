@@ -341,3 +341,14 @@ healthchecksdb
 launchSettings.json
 
 .vscode/
+
+# --- local build output & maintainer scripts (not pushed) ---
+build/
+dist/
+release/
+**/publish/
+*.zip
+!**/packages.lock.json
+scripts/build-release.ps1
+scripts/build-release.local.ps1
+scripts/*.local.ps1

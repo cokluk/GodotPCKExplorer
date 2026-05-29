@@ -1,62 +1,78 @@
-# Godot PCK Explorer
+# Godot PCK Explorer — Pre-built Releases
 
-It is a viewer and editor for Godot Engine's PCK files with the ability to extract content and create new packages. Supports Godot 3 and 4.
+**Maintainer:** [@cokluk](https://github.com/cokluk) · **[Download releases](https://github.com/cokluk/GodotPCKExplorer/releases/latest)**
 
-[Download](#download)
+[![Releases](https://img.shields.io/github/v/release/cokluk/GodotPCKExplorer?label=download)](https://github.com/cokluk/GodotPCKExplorer/releases/latest)
 
-Also `PCK Bruteforcer` is available as part of this project [here](Bruteforcer/).
+Pre-built binaries for **Godot PCK Explorer** and **PCK Bruteforcer** — including packages that are missing or awkward to obtain from the upstream release page.
 
-## Features
-
-* `Explore` existing PCK files (regular PCK or Embedded)
-* `Extract` content from a PCK file
-* `Create` new PCK files or embed the folder as PCK into any other files
-* `Patch` PCK files and replace some of their contents with new files from the folder
-* `Merge` existing PCK into other files
-* `Change` the version of existing PCK
-* `Extract` whole embedded PCK
-* `Remove` embedded PCK
-* `Split` files with embedded PCK into two separate files
-* Supports encrypted Godot 4 PCK
-* And also all these features are available via the `console`. Just write `GodotPCKExplorer.Console.exe -h` to get help.
-* This program is available in two versions:
-  * `UI`: Supports only `Windows` and requires the installation of the `.NET Desktop Runtime`
-  * `Console`: Supports `Windows`, `Linux` and `macOS`
-
-PCK Explorer also supports paths with prefix `user://`. When extracting, files with the prefix `user://` will be placed in the folder `@@user@@`. Also, when packing, files from `@@user@@` will have the prefix `user://`.
-
-In Godot 4.4, support for removing files in PCK patches was added, and this program also supports this feature. Files with the `Removal` flag will have `.@@removal@@` in the name when extracted. Also, the `.@@removal@@` from the name will be removed and converted to the `Removal` flag when packing.
-
-![Main Window](Images/MainForm.png)
-![Pack Window](Images/CreatePack.png)
-![Pack Window with Patching](Images/CreatePackPatch.png)
-![Change Version Window](Images/ChangeVersion.png)
-
-## Support
-
-<a href="https://boosty.to/dmitriysalnikov/donate"><img src="./Images/boosty.png" alt="Boosty" width=150px/></a>
-
-<a href="#"><img src="./Images/USDT-TRC20.png" alt="USDT-TRC20" width=150px/></a>
-
-<b>USDT-TRC20 TEw934PrsffHsAn5M63SoHYRuZo984EF6v</b>
+Fork of [DmitriySalnikov/GodotPCKExplorer](https://github.com/DmitriySalnikov/GodotPCKExplorer) (original author and source). This repo focuses on **ready-to-download builds** and [GitHub Actions](https://github.com/cokluk/GodotPCKExplorer/actions) packaging.
 
 ## Download
 
-The binaries of the latest version are available on [**itch.io**](https://dmitriysalnikov.itch.io/godot-pck-explorer) or on the [**Github Releases page**](https://github.com/DmitriySalnikov/GodotPCKExplorer/releases/latest).
+**[→ Latest releases (.zip)](https://github.com/cokluk/GodotPCKExplorer/releases/latest)**
+
+Each release has one `.zip` per variant (UI / console, dotnet / native, per platform).
+
+### Godot PCK Explorer (v1.6.0)
+
+| Asset | Description |
+|-------|-------------|
+| `GodotPCKExplorer_*_dotnet-ui-win` | Windows UI (.NET 9 Desktop Runtime) |
+| `GodotPCKExplorer_*_dotnet-console-win-linux-mac` | Console (`dotnet` on Win / Linux / macOS) |
+| `GodotPCKExplorer_*_native-console-win-x64` | Standalone, 64-bit Windows |
+| `GodotPCKExplorer_*_native-console-win-x86` | Standalone, 32-bit Windows |
+| `GodotPCKExplorer_*_native-console-linux-x64` | Standalone, Linux x64 |
+| `GodotPCKExplorer_*_native-console-mac-x64` | Standalone, macOS Intel |
+| `GodotPCKExplorer_*_native-console-mac-arm64` | Standalone, macOS Apple Silicon |
+
+### PCK Bruteforcer (v1.0.3)
+
+Godot 4 PCK encryption key recovery. Details: [Bruteforcer/README.md](Bruteforcer/README.md).
+
+| Asset | Description |
+|-------|-------------|
+| `PCKBruteforcer_*_dotnet-ui-win` | Windows UI (.NET 9 Desktop Runtime) |
+| `PCKBruteforcer_*_dotnet-console-win-linux-mac` | Console (`dotnet` on Win / Linux / macOS) |
+| `PCKBruteforcer_*_native-console-win-x64` | Standalone, 64-bit Windows |
+| `PCKBruteforcer_*_native-console-win-x86` | Standalone, 32-bit Windows |
+| `PCKBruteforcer_*_native-console-linux-x64` | Standalone, Linux x64 |
+| `PCKBruteforcer_*_native-console-mac-x64` | Standalone, macOS Intel |
+| `PCKBruteforcer_*_native-console-mac-arm64` | Standalone, macOS Apple Silicon |
 
 > [!IMPORTANT]
-> Starting from version 1.4.2, `native` and `dotnet` versions of the program have become available for download.
+> **`dotnet`** builds need [.NET 9](https://dotnet.microsoft.com/download/dotnet/9.0). UI builds need the **Desktop Runtime** on Windows.
 >
-> `native` is a standalone program that does not require anything extra to run.
->
-> `dotnet` is a program that requires `.NET 9` to work. Its download should be prompted when you run `.exe` files in Windows, if it has not been installed previously.
->
-> The `.NET Desktop Runtime` is required to use the UI versions of the program.
->
-> On Linux and macOS, you just need to install the `.NET Runtime`. Use the command `dotnet GodotPCKExplorer.Console.dll [some arguments]` to run it.
->
-> `.NET 9` is available [here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0).
+> **`native`** builds are self-contained. Linux/macOS console binaries have no `.exe` extension.
+
+## Build from source
+
+[.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0) required. Windows needed for UI projects.
+
+```powershell
+git clone https://github.com/cokluk/GodotPCKExplorer.git
+cd GodotPCKExplorer
+.\scripts\build.ps1
+```
+
+Output: `build/` (gitignored). Same folder names as release zips.
+
+### CI / automatic releases
+
+Workflow: [`.github/workflows/dotnet-desktop.yml`](.github/workflows/dotnet-desktop.yml)
+
+- Push to `master` / `main` → artifacts under **Actions → release-zips**
+- Tag `v1.6.0` and push → creates a **GitHub Release** with all zips:
+
+```bash
+git tag v1.6.0
+git push origin v1.6.0
+```
+
+## Upstream
+
+Feature documentation and screenshots: [upstream README](https://github.com/DmitriySalnikov/GodotPCKExplorer/blob/master/README.md) · [upstream releases](https://github.com/DmitriySalnikov/GodotPCKExplorer/releases/latest) · [issues](https://github.com/DmitriySalnikov/GodotPCKExplorer/issues) for core app bugs.
 
 ## License
 
-MIT license
+MIT. See [LICENSE](LICENSE). Original copyright DmitriySalnikov; fork maintained by [cokluk](https://github.com/cokluk).

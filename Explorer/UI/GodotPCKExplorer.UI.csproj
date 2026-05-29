@@ -11,13 +11,9 @@
 		<Title>Godot PCK Explorer</Title>
 		<Product>GodotPCKExplorer</Product>
 		<PackageId>GodotPCKExplorer.UI</PackageId>
-		<Authors>Dmitriy Salnikov</Authors>
 		<Description>C# implementation of the Godot's PCK file format with the ability to export files from it and create new PCK packs,&#10;as well as giving several more useful features.</Description>
-		<Copyright>Copyright © 2025</Copyright>
-		<PackageProjectUrl>https://github.com/DmitriySalnikov/GodotPCKExplorer</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/cokluk/GodotPCKExplorer</PackageProjectUrl>
 		<PackageIcon>pckAbout.png</PackageIcon>
-		<RepositoryUrl>https://github.com/DmitriySalnikov/GodotPCKExplorer</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
 		<NeutralLanguage>en</NeutralLanguage>
 		<Version>1.0.0</Version>
 

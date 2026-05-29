@@ -8,7 +8,7 @@ namespace GodotPCKExplorer.UI
         readonly string FormBaseTitle = "";
         readonly Font MatchCaseNormal;
         readonly Font MatchCaseStrikeout;
-        readonly VersionCheckerGitHub versionCheckerGitHub = new("DmitriySalnikov", "GodotPCKExplorer", GlobalConstants.ProjectName, ShowMessageBoxForVersionCheck);
+        readonly VersionCheckerGitHub versionCheckerGitHub = new("cokluk", "GodotPCKExplorer", GlobalConstants.ProjectName, ShowMessageBoxForVersionCheck);
         readonly List<ToolStripMenuItem> noEncKeyModeMenus = [];
 
         string onLoadOpenPCKFile = "";

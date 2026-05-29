@@ -10,12 +10,8 @@
 		<Title>Obtain PCK Encryption Key</Title>
 		<Product>PCKBruteforcer</Product>
 		<PackageId>PCKBruteforcer.UI</PackageId>
-		<Authors>Dmitriy Salnikov</Authors>
 		<Description>A small utility to find the encryption key for PCK.</Description>
-		<Copyright>Copyright © 2025</Copyright>
-		<PackageProjectUrl>https://github.com/DmitriySalnikov/GodotPCKExplorer/tree/master/Bruteforcer</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/DmitriySalnikov/GodotPCKExplorer/tree/master/Bruteforcer</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/cokluk/GodotPCKExplorer/tree/master/Bruteforcer</PackageProjectUrl>
 		<NeutralLanguage>en</NeutralLanguage>
 		<Version>1.0.0</Version>
 
